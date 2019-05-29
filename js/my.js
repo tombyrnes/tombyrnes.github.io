@@ -1,7 +1,15 @@
 $(window).on('load', function(){;
-     $('#loader-bg').hide();
-
+   $("#loader-bg").delay(5000).fadeOut(1000);
  });
+
+// function onChangeLeaveEndDate() {
+//    //$('.k-loading-mask').css('display', 'block !important');
+//    $("loader-bg").show();
+//    setTimeout(function () {
+//       test(); 
+//       $("loader-bg").hide();
+//    }, 50);
+// }
 
  $(document).ready(function() {
    if (!readCookie("adSeen")) {
