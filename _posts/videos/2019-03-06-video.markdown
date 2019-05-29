@@ -1,0 +1,10 @@
+---
+layout: default
+title:  "Colorist Reel"
+date:   2019-03-06
+meta: Colorist
+categories: videos
+link: https://player.vimeo.com/video/196202533?api=1
+---
+
+<iframe src="https://player.vimeo.com/video/196202533?api=1&background=1&mute=0&loop=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

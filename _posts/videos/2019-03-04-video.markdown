@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "Grimace: Life After McDonald's (2017)"
+date:   2019-03-04
+meta: Director
+link: https://player.vimeo.com/video/228209429?api=1
+categories: videos
+---
+
+<iframe src="https://player.vimeo.com/video/337427875?api=1&background=1&mute=0&loop=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+

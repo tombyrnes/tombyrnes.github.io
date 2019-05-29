@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-ca" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>Tom Byrnes Films</title>
+	  	     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/fancybox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/modernizer.js"></script>
+		<script src="/js/fancybox.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+	<script src="/js/my.js"></script>
+		<script src="/js/isotope.js"></script>
+
+
+</head>
+
+<body {% if page.url == '/' %}class="home"{% endif %}>
+
+<div id="loader-bg">
+	<div id="loader">
+  <div class="ball ball-1"></div>
+  <div class="ball ball-2"></div>
+  <div class="ball ball-3"></div>
+</div>
+</div>
+
+<header class="flexnav fixed width-98">
+	{% include nav.html %}
+</header>
+<div class="top-padding"></div>
+<div class="grid">
+
+{% for videos in site.categories.videos %}
+<div class="block {{videos.meta}} grid-item">
+<div class="video ">
+	<div class="video-frame">
+{{videos.content}}
+	<a class="fancylink" data-fancybox="gallery" title="" data-caption="<strong>{{videos.title}}</strong><br>{{videos.meta}}" href="{{videos.link}}" target="_blank"></a>
+</div>
+</div>
+
+			<a data-fancybox="gallery" title="" data-caption="{{videos.title}}<br>{{videos.meta}}" href="{{videos.link}}" target="_blank">
+		<div class="video-copy flexcopy">
+<span class="video-title">
+{{videos.title}}</span>
+<span class="video-meta">{{videos.meta}} <img class="arrow" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDIyLjkyNCAyMi45MjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDIyLjkyNCAyMi45MjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8cGF0aCBkPSJNMjIuOTI0LDE1LjIwNmMwLDAuNjE5LTAuNTA4LDEuMTExLTEuMTI3LDEuMTExYy0wLjYxOSwwLTEuMTExLTAuNDkyLTEuMTExLTEuMTExVjMuODI1ICBMMS45MDksMjIuNjAzYy0wLjQyOSwwLjQyOS0xLjE0MywwLjQyOS0xLjU4NywwYy0wLjQyOS0wLjQ0NC0wLjQyOS0xLjE0MywwLTEuNTg3TDE5LjA5OSwyLjI1NEg3LjczNCAgYy0wLjYxOSwwLTEuMTI3LTAuNTA4LTEuMTI3LTEuMTI3UzcuMTE1LDAsNy43MzQsMGgxNC4wNjNjMC42MTksMCwxLjEyNywwLjUwOCwxLjEyNywxLjEyN1YxNS4yMDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></span>
+</div>
+</a>
+</div>
+<div class="bottom-padding"></div>
+{% endfor %}
+</div>
+</body>
+</html>

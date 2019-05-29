@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-ca" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>Tom Byrnes Films</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/fancybox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/modernizer.js"></script>
+		<script src="/js/fancybox.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+	<script src="/js/my.js"></script>
+		<script src="/js/isotope.js"></script>
+
+
+</head>
+
+<body {% if page.url == '/' %}class="home"{% endif %}>
+
+<header class="flex fixed width-98">
+	{% include nav.html %}
+</header>
+<div class="top-padding"></div>
+</body>
+</html>
