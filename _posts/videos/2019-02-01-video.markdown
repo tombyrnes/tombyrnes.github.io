@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Colorist Reel"
+title:  "Jesse Ridgway (McJuggerNuggets) | Uncomfortably Close"
 date:   2019-02-01
-meta: Colorist
+meta: Editor
 categories: videos
-link: https://player.vimeo.com/video/196202533?api=1
+link: https://www.youtube.com/watch?v=BgKL4KOKJZk&t
 ---
 
-<iframe src="https://player.vimeo.com/video/196202533?api=1&background=1&mute=0&loop=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/BgKL4KOKJZk&t?rel=0&autoplay=1&mute=1&controls=0&loop=1&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
