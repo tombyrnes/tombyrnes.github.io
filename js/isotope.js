@@ -2,6 +2,13 @@
 
 $('.grid').isotope({
   itemSelector: '.grid-item',
+    // disable scale transform transition when hiding
+  hiddenStyle: {
+    opacity: 0
+  },
+  visibleStyle: {
+    opacity: 1
+  }
 });
 
 // filter items on button click

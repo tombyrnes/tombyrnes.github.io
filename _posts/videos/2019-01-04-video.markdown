@@ -1,0 +1,10 @@
+---
+layout: default
+title:  "Editor Reel"
+date:   2019-01-04
+meta: Editor
+categories: videos
+link: https://player.vimeo.com/video/340066511?api=1
+---
+
+<iframe src="https://player.vimeo.com/video/340066511?api=1&background=1&mute=0&loop=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

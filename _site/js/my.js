@@ -1,15 +1,12 @@
 $(window).on('load', function(){;
-   $("#loader-bg").delay(5000).fadeOut(1000);
+     $('#loader-bg').hide();
+
  });
 
-// function onChangeLeaveEndDate() {
-//    //$('.k-loading-mask').css('display', 'block !important');
-//    $("loader-bg").show();
-//    setTimeout(function () {
-//       test(); 
-//       $("loader-bg").hide();
-//    }, 50);
-// }
+    // $("grid-item").hover(function(){     
+    //     $("#copy").toggleClass("visible");  
+    //     console.log('hey');  
+    // });
 
  $(document).ready(function() {
    if (!readCookie("adSeen")) {

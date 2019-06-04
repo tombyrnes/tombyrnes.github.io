@@ -1,11 +1,10 @@
 ---
 layout: default
-title:  "I've Got A Son Called Rock 'N' Roll (2016)"
+title:  "Jesse Ridgway (McJuggerNuggets) | Uncomfortably Close"
 date:   2019-01-02
-meta: Director
-link: https://player.vimeo.com/video/173898506?api=1
+meta: Editor
 categories: videos
+link: https://www.youtube.com/watch?v=BgKL4KOKJZk&t
 ---
 
-<iframe src="https://player.vimeo.com/video/337427914?api=1&background=1&mute=0&loop=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+<iframe  src="https://www.youtube.com/embed/BgKL4KOKJZk&t?rel=0&autoplay=1&mute=1&controls=0&loop=1&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

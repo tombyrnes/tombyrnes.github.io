@@ -1,0 +1,8 @@
+---
+layout: default
+title:  "About"
+date:   2019-01-01
+categories: about
+---
+
+Tom Byrnes is a director, editor and colorist. In addition to writing and directing his own short films and music videos, he works with a variety of clients in the digital sphere including MTV, Comedy Central and Discovery Channel. Please contact <a class="current" href="mailto:tombyrnesfilms@gmail.com">tombyrnesfilms@gmail.com</a> for any inquiries.

@@ -135,7 +135,7 @@ body.compensate-for-scrollbar {
     outline: none;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 2.5%;
+    padding: 44px;
     position: absolute;
     text-align: center;
     top: 0;
@@ -508,7 +508,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-caption--separate {
-    margin-top: -50px;
+    margin-top: -5vh;
 }
 
 .fancybox-caption__body {
@@ -900,9 +900,8 @@ body.compensate-for-scrollbar {
     opacity: 1;
 }
 
-
 /* Styling for Small-Screen Devices */
-@media all and (max-width: 800px) {
+@media all and (max-width: 576px) {
     .fancybox-thumbs {
         width: 110px;
     }
@@ -913,13 +912,5 @@ body.compensate-for-scrollbar {
 
     .fancybox-thumbs__list a {
         max-width: calc(100% - 10px);
-    }
-
-    .fancybox-iframe{
-        top: -10%;
-    }
-
-    .fancybox-caption {
-        top: 60%;
     }
 }
