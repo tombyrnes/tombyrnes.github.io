@@ -1,7 +1,16 @@
-$(window).on('load', function(){;
-     $('#loader-bg').hide();
+// $(window).on('load', function(){;
+//      $('#loader-bg').hide();
 
- });
+//  });
+
+document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'complete') {
+      setTimeout(function(){
+        $('#loader-bg').hide();
+      },1000);
+  }
+}
 
     // $("grid-item").hover(function(){     
     //     $("#copy").toggleClass("visible");  
