@@ -293,7 +293,7 @@ footer{
 .nav-logo{
 	font-family: "black-italic";
 	font-style:italic;
-	font-size: 2.25em;
+	font-size: 2em;
 	margin-top: 2vh;
   letter-spacing: 2px;
 }
@@ -519,6 +519,10 @@ header{
 
 #arrow{
 opacity: 1;
+}
+
+.nav-logo{
+  font-size: 1.75em;
 }
 
 }
