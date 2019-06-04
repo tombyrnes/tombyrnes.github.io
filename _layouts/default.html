@@ -28,6 +28,34 @@
 </div>
 </div>
 
+<div id="about-bg">
+<div class="about-content">
+{% for about in site.categories.about %}
+{{about.content}}
+{% endfor %}
+<div class="about-divided">
+	<div class="clients current">
+		Selected Clients:
+		<div class="logo-grid">
+	<img class="logo" src="{{site.url}}/assets/logos/aboveaverage-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/comedycentral-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/discovery-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/mtv-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/Olay-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/TapOut-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/teenvogue-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/viacom-logo.svg">
+	<img class="logo" src="{{site.url}}/assets/logos/vogue-logo.svg">
+	</div>
+	</div>
+		<div class="resume current">
+<a href="{{site.url}}/assets/TomByrnes_Résumé.pdf" target="_blank" class="current">Résumé <img class="about-arrow arrow" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDIyLjkyNCAyMi45MjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDIyLjkyNCAyMi45MjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8cGF0aCBkPSJNMjIuOTI0LDE1LjIwNmMwLDAuNjE5LTAuNTA4LDEuMTExLTEuMTI3LDEuMTExYy0wLjYxOSwwLTEuMTExLTAuNDkyLTEuMTExLTEuMTExVjMuODI1ICBMMS45MDksMjIuNjAzYy0wLjQyOSwwLjQyOS0xLjE0MywwLjQyOS0xLjU4NywwYy0wLjQyOS0wLjQ0NC0wLjQyOS0xLjE0MywwLTEuNTg3TDE5LjA5OSwyLjI1NEg3LjczNCAgYy0wLjYxOSwwLTEuMTI3LTAuNTA4LTEuMTI3LTEuMTI3UzcuMTE1LDAsNy43MzQsMGgxNC4wNjNjMC42MTksMCwxLjEyNywwLjUwOCwxLjEyNywxLjEyN1YxNS4yMDZ6IiBmaWxsPSIjMDAwMDAwIi8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" /></a>
+</div>
+</div>
+</div>
+
+</div>
+
 <header class="flexnav fixed-default default-header">
 	<div class="nav-copy">
 	{% include nav.html %}

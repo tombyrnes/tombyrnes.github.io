@@ -44,6 +44,18 @@ padding: 0 1%;	overflow-x:hidden;
 max-width:1800px;
 }
 
+/*about bg styles */
+
+#about-bg{
+      background: #FFFFF0;
+      width: 98%;
+      height: 100vh;
+      z-index: 150;
+      position: fixed;
+      overflow: hidden;
+      display:none;
+}
+
 .default-header{
             background: #FFFFF0;
 }
@@ -78,8 +90,6 @@ max-width:1800px;
 
 .about-content{
   max-width:1800px;
-  margin:0;
-  width: 100%;
     line-height: 1.25;
 /*    text-align: center;
 *//*  display: flex;

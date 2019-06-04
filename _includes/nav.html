@@ -1,13 +1,13 @@
-			<a class="nav-logo" href="{{site.baseurl}}/">Tom Byrnes</a>
+			<a class="nav-logo" href="{{site.baseurl}}/" onclick="hide()">Tom Byrnes</a>
 
 			<div class="sections filters filter-button-group">
 				<ul>
-			<li data-filter="*" class="current">All Work</li>
-			<li data-filter=".Editor" class="sub-work">Editor</li>
-			<li href="#" data-filter=".Colorist" class="sub-work">Colorist</li>
-			<li href="#" data-filter=".Director" class="sub-work">Director</li>
+			<li data-filter="*" class="current" onclick="hide()">All Work</li>
+			<li data-filter=".Editor" class="sub-work" onclick="hide()">Editor</li>
+			<li href="#" data-filter=".Colorist" class="sub-work" onclick="hide()">Colorist</li>
+			<li href="#" data-filter=".Director" class="sub-work" onclick="hide()">Director</li>
 		</ul>
 		</div>
 		<div  class="sub">
-			<a href="{{site.baseurl}}/about/">About</a>
+			<a href="#" id="about-nav" onclick="display()">About</a>
 		</div>
