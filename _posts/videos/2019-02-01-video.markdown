@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Jesse Ridgway (McJuggerNuggets) | Uncomfortably Close"
+title:  Jesse Ridgway (McJuggerNuggets) | Uncomfortably Close - Above Average Original Series
 date:   2019-02-01
 meta: Editor
 categories: videos
 link: https://www.youtube.com/watch?v=BgKL4KOKJZk&t
 ---
 
-<iframe  src="https://www.youtube.com/embed/BgKL4KOKJZk&t?rel=0&autoplay=1&mute=1&controls=0&loop=1&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<img src="https://img.youtube.com/vi/BgKL4KOKJZk/0.jpg">

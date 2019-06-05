@@ -3,8 +3,6 @@ $(window).on('load', function(){;
 
  });
 
-
-
 function display(){
   document.getElementById("about-bg").style.display = "block";
     document.getElementById("about-nav").style.fontWeight = "700";
@@ -14,6 +12,14 @@ function hide(){
   document.getElementById("about-bg").style.display = "none";
       document.getElementById("about-nav").style.fontWeight = "normal";
 }
+
+$("#").click(function () {
+   //1 second of animation time
+   //html works for FFX but not Chrome
+   //body works for Chrome but not FFX
+   //This strange selector seems to work universally
+   $("html, body").animate({scrollTop: 0}, 1000);
+});
 
  $(document).ready(function() {
    if (!readCookie("adSeen")) {

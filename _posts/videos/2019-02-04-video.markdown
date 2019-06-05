@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Editor Reel"
+title:  Editor Reel
 date:   2019-02-04
 meta: Editor
 categories: videos

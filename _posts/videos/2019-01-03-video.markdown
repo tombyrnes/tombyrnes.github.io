@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Glassio - Today (Official Video)"
+title:  Glassio - Today (Official Video)
 date:   2019-01-03
 meta: Director
 link: https://player.vimeo.com/video/174230434?api=1

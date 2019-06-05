@@ -431,6 +431,11 @@ width:100%;
 height: 100%;
 }
 
+.video-frame img{
+  width:110%;
+height: 110%;
+transform: translateY(-15%);
+}
 
 .video-copy{
 	z-index: 100;

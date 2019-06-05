@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "I've Got A Son Called Rock 'N' Roll (2016)"
+title:  I've Got A Son Called Rock 'N' Roll (2016)
 date:   2019-01-01
 meta: Director
 link: https://player.vimeo.com/video/173898506?api=1
