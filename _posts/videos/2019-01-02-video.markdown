@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Grimace: Life After McDonald's (2017)
+title:  "Grimace: Life After McDonald's (2017)"
 date:   2019-01-02
 meta: Director
 link: https://player.vimeo.com/video/228209429?api=1
