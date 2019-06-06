@@ -324,7 +324,6 @@ footer{
 .nav-logo{
 	font-family: "black-italic";
 	font-style:italic;
-	font-size: 2em;
 	margin-top: 2vh;
   letter-spacing: 2px;
 }
@@ -437,8 +436,9 @@ height: 100%;
 }
 
 .video-frame img{
-  width:100%;
-height: 100%;
+  width:110%;
+height: auto;
+transform: translateX(-5%)translateY(-5%);
 }
 
 .video-copy{
@@ -562,7 +562,7 @@ transition: opacity 0.3s linear;}
 }
 
 .nav-logo img{
-    width:20vw;
+    width:25vw;
 }
 
 #arrow{

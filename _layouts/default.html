@@ -67,7 +67,7 @@
 {% for videos in site.categories.videos %}
 <div class="block {{videos.meta}} grid-item" id="grid-item">
 <div class="video " id="video">
-	<div class="video-frame">
+	<div class="video-frame" id="iframe">
 {{videos.content}}
 	<a class="fancylink" data-fancybox="gallery" title="" data-caption="<strong>{{videos.title}}</strong><br><i>{{videos.meta}}</i>" href="{{videos.link}}" target="_blank"></a>
 </div>
