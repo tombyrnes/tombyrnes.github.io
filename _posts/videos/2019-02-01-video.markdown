@@ -7,4 +7,4 @@ categories: videos
 link: https://www.youtube.com/watch?v=BgKL4KOKJZk&t
 ---
 
-<img src="https://img.youtube.com/vi/BgKL4KOKJZk/0.jpg">
+<img src="{{site.url}}/assets/ridgway.png">
