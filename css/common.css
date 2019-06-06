@@ -324,7 +324,6 @@ footer{
 .nav-logo{
 	font-family: "black-italic";
 	font-style:italic;
-	font-size: 2em;
 	margin-top: 2vh;
   letter-spacing: 2px;
 }
@@ -562,7 +561,7 @@ transition: opacity 0.3s linear;}
 }
 
 .nav-logo img{
-    width:20vw;
+    width:25vw;
 }
 
 #arrow{
