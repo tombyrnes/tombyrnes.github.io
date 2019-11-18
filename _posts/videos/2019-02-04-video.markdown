@@ -1,0 +1,10 @@
+---
+layout: default
+title:  VH1 Unveiled - Sidney Starr
+date:   2019-02-04
+meta: Editor
+categories: videos
+link: https://player.vimeo.com/video/373630512?api=1
+---
+
+<iframe src="https://player.vimeo.com/video/373630512?api=1&background=1&mute=0&loop=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
