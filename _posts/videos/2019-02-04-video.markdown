@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  The Guardian Labs x New York Life Insurance COVID Stories Jeremy Emerich
+title:  The Guardian Labs x New York Life Insurance - COVID-19 Stories: Jeremy Emerich
 date:   2019-02-04
 meta: Editor
 categories: videos
